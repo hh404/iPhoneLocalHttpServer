@@ -13,6 +13,17 @@
 		EC8DF88E1CFA9B680052A9EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC8DF88C1CFA9B680052A9EF /* Main.storyboard */; };
 		EC8DF8901CFA9B680052A9EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC8DF88F1CFA9B680052A9EF /* Assets.xcassets */; };
 		EC8DF8931CFA9B680052A9EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC8DF8911CFA9B680052A9EF /* LaunchScreen.storyboard */; };
+		EC8DF8AD1CFAB7DD0052A9EF /* AsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = EC8DF89C1CFAB7DC0052A9EF /* AsyncSocket.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		EC8DF8AE1CFAB7DD0052A9EF /* DDData.m in Sources */ = {isa = PBXBuildFile; fileRef = EC8DF89E1CFAB7DC0052A9EF /* DDData.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		EC8DF8AF1CFAB7DD0052A9EF /* DDNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = EC8DF8A01CFAB7DC0052A9EF /* DDNumber.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		EC8DF8B01CFAB7DD0052A9EF /* DDRange.m in Sources */ = {isa = PBXBuildFile; fileRef = EC8DF8A21CFAB7DC0052A9EF /* DDRange.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		EC8DF8B11CFAB7DD0052A9EF /* FileResource.m in Sources */ = {isa = PBXBuildFile; fileRef = EC8DF8A41CFAB7DC0052A9EF /* FileResource.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		EC8DF8B21CFAB7DD0052A9EF /* HTTPAuthenticationRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = EC8DF8A61CFAB7DD0052A9EF /* HTTPAuthenticationRequest.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		EC8DF8B31CFAB7DD0052A9EF /* HTTPConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = EC8DF8A81CFAB7DD0052A9EF /* HTTPConnection.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		EC8DF8B41CFAB7DD0052A9EF /* HTTPResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = EC8DF8AA1CFAB7DD0052A9EF /* HTTPResponse.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		EC8DF8B51CFAB7DD0052A9EF /* HTTPServer.m in Sources */ = {isa = PBXBuildFile; fileRef = EC8DF8AC1CFAB7DD0052A9EF /* HTTPServer.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		EC8DF8B91CFAB8390052A9EF /* RegexKitLite.m in Sources */ = {isa = PBXBuildFile; fileRef = EC8DF8B81CFAB8390052A9EF /* RegexKitLite.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		EC8DF8EF1CFAC88B0052A9EF /* docroot in Resources */ = {isa = PBXBuildFile; fileRef = EC8DF8EE1CFAC88B0052A9EF /* docroot */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +37,27 @@
 		EC8DF88F1CFA9B680052A9EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EC8DF8921CFA9B680052A9EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EC8DF8941CFA9B680052A9EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC8DF89B1CFAB7DC0052A9EF /* AsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsyncSocket.h; sourceTree = "<group>"; };
+		EC8DF89C1CFAB7DC0052A9EF /* AsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsyncSocket.m; sourceTree = "<group>"; };
+		EC8DF89D1CFAB7DC0052A9EF /* DDData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDData.h; sourceTree = "<group>"; };
+		EC8DF89E1CFAB7DC0052A9EF /* DDData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDData.m; sourceTree = "<group>"; };
+		EC8DF89F1CFAB7DC0052A9EF /* DDNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDNumber.h; sourceTree = "<group>"; };
+		EC8DF8A01CFAB7DC0052A9EF /* DDNumber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDNumber.m; sourceTree = "<group>"; };
+		EC8DF8A11CFAB7DC0052A9EF /* DDRange.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDRange.h; sourceTree = "<group>"; };
+		EC8DF8A21CFAB7DC0052A9EF /* DDRange.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDRange.m; sourceTree = "<group>"; };
+		EC8DF8A31CFAB7DC0052A9EF /* FileResource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileResource.h; sourceTree = "<group>"; };
+		EC8DF8A41CFAB7DC0052A9EF /* FileResource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileResource.m; sourceTree = "<group>"; };
+		EC8DF8A51CFAB7DC0052A9EF /* HTTPAuthenticationRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTPAuthenticationRequest.h; sourceTree = "<group>"; };
+		EC8DF8A61CFAB7DD0052A9EF /* HTTPAuthenticationRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTPAuthenticationRequest.m; sourceTree = "<group>"; };
+		EC8DF8A71CFAB7DD0052A9EF /* HTTPConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTPConnection.h; sourceTree = "<group>"; };
+		EC8DF8A81CFAB7DD0052A9EF /* HTTPConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTPConnection.m; sourceTree = "<group>"; };
+		EC8DF8A91CFAB7DD0052A9EF /* HTTPResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTPResponse.h; sourceTree = "<group>"; };
+		EC8DF8AA1CFAB7DD0052A9EF /* HTTPResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTPResponse.m; sourceTree = "<group>"; };
+		EC8DF8AB1CFAB7DD0052A9EF /* HTTPServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTPServer.h; sourceTree = "<group>"; };
+		EC8DF8AC1CFAB7DD0052A9EF /* HTTPServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTPServer.m; sourceTree = "<group>"; };
+		EC8DF8B71CFAB8390052A9EF /* RegexKitLite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegexKitLite.h; sourceTree = "<group>"; };
+		EC8DF8B81CFAB8390052A9EF /* RegexKitLite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegexKitLite.m; sourceTree = "<group>"; };
+		EC8DF8EE1CFAC88B0052A9EF /* docroot */ = {isa = PBXFileReference; lastKnownFileType = folder; name = docroot; path = iPhoneLocalHttpServer/docroot; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +74,7 @@
 		EC8DF8771CFA9B680052A9EF = {
 			isa = PBXGroup;
 			children = (
+				EC8DF8EE1CFAC88B0052A9EF /* docroot */,
 				EC8DF8821CFA9B680052A9EF /* iPhoneLocalHttpServer */,
 				EC8DF8811CFA9B680052A9EF /* Products */,
 			);
@@ -58,6 +91,9 @@
 		EC8DF8821CFA9B680052A9EF /* iPhoneLocalHttpServer */ = {
 			isa = PBXGroup;
 			children = (
+				EC8DF8C51CFAC0530052A9EF /* Resources */,
+				EC8DF8B61CFAB8390052A9EF /* RegexKitLite */,
+				EC8DF89A1CFAB7DC0052A9EF /* CocoaHTTPServer */,
 				EC8DF8861CFA9B680052A9EF /* AppDelegate.h */,
 				EC8DF8871CFA9B680052A9EF /* AppDelegate.m */,
 				EC8DF8891CFA9B680052A9EF /* ViewController.h */,
@@ -77,6 +113,47 @@
 				EC8DF8841CFA9B680052A9EF /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EC8DF89A1CFAB7DC0052A9EF /* CocoaHTTPServer */ = {
+			isa = PBXGroup;
+			children = (
+				EC8DF89B1CFAB7DC0052A9EF /* AsyncSocket.h */,
+				EC8DF89C1CFAB7DC0052A9EF /* AsyncSocket.m */,
+				EC8DF89D1CFAB7DC0052A9EF /* DDData.h */,
+				EC8DF89E1CFAB7DC0052A9EF /* DDData.m */,
+				EC8DF89F1CFAB7DC0052A9EF /* DDNumber.h */,
+				EC8DF8A01CFAB7DC0052A9EF /* DDNumber.m */,
+				EC8DF8A11CFAB7DC0052A9EF /* DDRange.h */,
+				EC8DF8A21CFAB7DC0052A9EF /* DDRange.m */,
+				EC8DF8A31CFAB7DC0052A9EF /* FileResource.h */,
+				EC8DF8A41CFAB7DC0052A9EF /* FileResource.m */,
+				EC8DF8A51CFAB7DC0052A9EF /* HTTPAuthenticationRequest.h */,
+				EC8DF8A61CFAB7DD0052A9EF /* HTTPAuthenticationRequest.m */,
+				EC8DF8A71CFAB7DD0052A9EF /* HTTPConnection.h */,
+				EC8DF8A81CFAB7DD0052A9EF /* HTTPConnection.m */,
+				EC8DF8A91CFAB7DD0052A9EF /* HTTPResponse.h */,
+				EC8DF8AA1CFAB7DD0052A9EF /* HTTPResponse.m */,
+				EC8DF8AB1CFAB7DD0052A9EF /* HTTPServer.h */,
+				EC8DF8AC1CFAB7DD0052A9EF /* HTTPServer.m */,
+			);
+			path = CocoaHTTPServer;
+			sourceTree = "<group>";
+		};
+		EC8DF8B61CFAB8390052A9EF /* RegexKitLite */ = {
+			isa = PBXGroup;
+			children = (
+				EC8DF8B71CFAB8390052A9EF /* RegexKitLite.h */,
+				EC8DF8B81CFAB8390052A9EF /* RegexKitLite.m */,
+			);
+			path = RegexKitLite;
+			sourceTree = "<group>";
+		};
+		EC8DF8C51CFAC0530052A9EF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,6 +213,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC8DF8EF1CFAC88B0052A9EF /* docroot in Resources */,
 				EC8DF8931CFA9B680052A9EF /* LaunchScreen.storyboard in Resources */,
 				EC8DF8901CFA9B680052A9EF /* Assets.xcassets in Resources */,
 				EC8DF88E1CFA9B680052A9EF /* Main.storyboard in Resources */,
@@ -150,8 +228,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				EC8DF88B1CFA9B680052A9EF /* ViewController.m in Sources */,
+				EC8DF8B11CFAB7DD0052A9EF /* FileResource.m in Sources */,
+				EC8DF8B41CFAB7DD0052A9EF /* HTTPResponse.m in Sources */,
 				EC8DF8881CFA9B680052A9EF /* AppDelegate.m in Sources */,
+				EC8DF8B21CFAB7DD0052A9EF /* HTTPAuthenticationRequest.m in Sources */,
+				EC8DF8B91CFAB8390052A9EF /* RegexKitLite.m in Sources */,
+				EC8DF8B01CFAB7DD0052A9EF /* DDRange.m in Sources */,
+				EC8DF8B51CFAB7DD0052A9EF /* HTTPServer.m in Sources */,
+				EC8DF8AF1CFAB7DD0052A9EF /* DDNumber.m in Sources */,
 				EC8DF8851CFA9B680052A9EF /* main.m in Sources */,
+				EC8DF8AE1CFAB7DD0052A9EF /* DDData.m in Sources */,
+				EC8DF8AD1CFAB7DD0052A9EF /* AsyncSocket.m in Sources */,
+				EC8DF8B31CFAB7DD0052A9EF /* HTTPConnection.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,7 +302,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -253,7 +341,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -265,10 +353,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: jianwu huang (783B2BFYJC)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: jianwu huang (783B2BFYJC)";
 				INFOPLIST_FILE = iPhoneLocalHttpServer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-licucore";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hw.iPhoneLocalHttpServer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "1dd1efa1-553e-4946-b0c7-add12733a570";
 			};
 			name = Debug;
 		};
@@ -276,10 +368,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: jianwu huang (K3KX659AR4)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: jianwu huang (K3KX659AR4)";
 				INFOPLIST_FILE = iPhoneLocalHttpServer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-licucore";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hw.iPhoneLocalHttpServer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "1462e78b-7275-4a79-9b1c-f8444d195ced";
 			};
 			name = Release;
 		};
@@ -302,6 +398,7 @@
 				EC8DF8991CFA9B680052A9EF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
